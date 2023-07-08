@@ -1,0 +1,73 @@
+.header {
+	width: 100%;
+	display: flex;
+	padding: 1rem;
+	font-size: 1.5rem;
+	border-bottom: 1px solid gray;
+	margin-bottom: 1rem;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__icon {
+	width: 40px;
+	font-size: 40px;
+	color: lightsalmon;
+}
+
+.logo__title {
+	font-size: 1.8rem;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.search__form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.search__input {
+	border: none;
+	outline: none;
+	padding: 15px 15px;
+	width: calc(100% / 12 * 7);
+	background-color: rgb(57, 56, 56);
+	color: gray;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+
+.search__button {
+	background-color: lightsalmon;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 15px 18px;
+}
+
+.rlogo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo__videoplus {
+	padding: 0;
+	font-size: 1.6rem;
+}
+
+.logo__bell {
+	font-size: 1.3rem;
+	padding: 0 20px;
+}
+
+.logo__profile {
+	padding: 0;
+	background-color: darkslategray;
+	border-radius: 50%;
+	width: 2.4rem;
+	height: 2.4rem;
+}
