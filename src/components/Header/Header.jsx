@@ -2,7 +2,7 @@ import { React, useState, useEffect } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { BsSearch, BsBell } from 'react-icons/bs';
 import { TbVideoPlus } from 'react-icons/tb';
-import { PiTelevisionSimpleDuotone } from 'react-icons/pi';
+import { PiTelevisionSimpleBold } from 'react-icons/pi';
 import styles from './Header.module.css';
 
 function Header() {
@@ -32,7 +32,7 @@ function Header() {
 				to='/'
 				className={styles.logo}
 			>
-				<PiTelevisionSimpleDuotone className={styles.logo__icon} />
+				<PiTelevisionSimpleBold className={styles.logo__icon} />
 				<h1 className={styles.logo__title}>Mintube</h1>
 			</Link>
 
@@ -51,7 +51,7 @@ function Header() {
 					className={styles.search__button}
 					type='submit'
 				>
-					<BsSearch />
+					<BsSearch class={styles.search__logo} />
 				</button>
 			</form>
 			<div className={styles.rlogo}>
@@ -66,7 +66,7 @@ function Header() {
 						src=''
 						alt=''
 					/>
-					프
+					S
 				</button>
 			</div>
 		</header>

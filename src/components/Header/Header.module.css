@@ -28,24 +28,29 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	font-size: 17px;
 }
 
 .search__input {
 	border: none;
 	outline: none;
-	padding: 15px 15px;
+	padding: 9px 15px;
 	width: calc(100% / 12 * 7);
 	background-color: rgb(57, 56, 56);
 	color: gray;
-	border-top-left-radius: 16px;
-	border-bottom-left-radius: 16px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 .search__button {
 	background-color: lightsalmon;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
-	padding: 15px 18px;
+	padding: 9px 20px;
+}
+
+.search__logo {
+	font-size: 19px;
 }
 
 .rlogo {
