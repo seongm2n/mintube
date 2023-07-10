@@ -15,10 +15,10 @@ const router = createBrowserRouter([
 		errorElement: <NotFound />,
 		children: [
 			{ index: true, element: <Videos /> },
-			{ path: 'Videos', element: <Videos /> },
+			{ path: 'videos', element: <Videos /> },
 			{ path: 'videos/:keyword', element: <Videos /> },
 			{
-				path: 'videos/watch/:id',
+				path: 'videos/watch/:videoId',
 				element: <VideosDetail />,
 			},
 		],

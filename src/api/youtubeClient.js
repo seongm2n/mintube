@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 export default class YoutubeClient {
-	// eslint-disable-next-line no-useless-constructor
 	constructor() {
 		this.httpClient = axios.create({
 			baseURL: 'https://www.googleapis.com/youtube/v3',

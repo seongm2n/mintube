@@ -4,8 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import VideoCard from '../components/VideoCard';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
 
-
-function Video() {
+function Videos() {
 	const { keyword } = useParams();
 	const { youtube } = useYoutubeApi();
 	const {
@@ -32,4 +31,4 @@ function Video() {
 		</>
 	);
 }
-export default Video;
+export default Videos;
