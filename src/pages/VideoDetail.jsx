@@ -20,6 +20,7 @@ function VideoDetail() {
 					height='640'
 					src={`http://www.youtube.com/embed/${video.id}`}
 					frameborder='0'
+					title={title}
 				/>
 				<div className={styles.channel__info}>
 					<h2 className={styles.channel__title}>{title}</h2>

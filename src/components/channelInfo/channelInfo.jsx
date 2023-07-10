@@ -5,9 +5,11 @@ import styles from './channelInfo.module.css';
 
 function ChannelInfo({ id, name }) {
 	const { youtube } = useYoutubeApi();
-	const { data: url } = useQuery(['channel', id], () =>
-		youtube.channelImageURL(id)
-	);
+	const { data: url } = useQuery(
+		['channel', id],
+		() => youtube.channelImageURL(id),
+		{ staleTime: 1000 * 60 * 5 }
+	); // 채널 이미지가 빈번히 바뀌지 않으므로 stale타임을 지정
 
 	return (
 		//프로필사진 지정
