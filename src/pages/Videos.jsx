@@ -16,9 +16,6 @@ function Videos() {
 
 	return (
 		<>
-			{/* <div>
-				Videos {keyword ? `🔍${keyword}` : '🩵'}
-			</div> */}
 			{isLoading && <p>Loading....</p>}
 			{error && <p>Something is wrong</p>}
 			{videos && (
