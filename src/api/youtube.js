@@ -1,3 +1,5 @@
+import { keyboard } from '@testing-library/user-event/dist/keyboard';
+
 export default class Youtube {
 	// 외부(apiClient)로 부터 data 받음
 	constructor(apiClient) {
@@ -8,13 +10,35 @@ export default class Youtube {
 		return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
 	}
 
+	async channelImageURL(id) {
+		return this.apiClient
+			.channels({ params: { part: 'snippet', id } })
+			.then((res) => res.data.items[0].snippet.thumbnails.default.url);
+	}
+
+	async relatedVideos(id) {
+		return this.apiClient
+			.search({
+				params: {
+					part: 'snippet',
+					maxResults: 25,
+					type: 'video',
+					relatedToVideoId: id,
+				},
+			})
+			.then((res) =>
+				res.data.items.map((item) => ({ ...item, id: item.id.videoId }))
+			);
+	}
+
 	async #searchByKeyword(keyword) {
 		return this.apiClient
 			.search({
 				params: { part: 'snippet', maxResults: 25, type: 'video', q: keyword },
 			})
-			.then((res) => res.data.items)
-			.then((items) => items.map((item) => ({ ...item, id: item.id.videoId })));
+			.then((res) =>
+				res.data.items.map((item) => ({ ...item, id: item.id.videoId }))
+			);
 	}
 
 	async #mostPopular() {
