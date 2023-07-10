@@ -16,7 +16,7 @@ function RelatedVideos({ id }) {
 			{isLoading && <p>Loading....</p>}
 			{error && <p>Something is wrong</p>}
 			{videos && (
-				<ul className={styles.Related__videos}>
+				<ul className={styles.related__videos}>
 					{videos.map((video) => (
 						<VideoCard
 							key={video.id}

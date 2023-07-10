@@ -11,14 +11,18 @@ function ChannelInfo({ id, name }) {
 
 	return (
 		//프로필사진 지정
-		<div>
+		<div className={styles.profile}>
 			{url && (
 				<img
+					className={styles.profile__img}
 					src={url}
 					alt={name}
 				/>
 			)}
-			<p>{name}</p>
+			<div className={styles.channel__text}>
+				<p className={styles.channel__name}>{name}</p>
+				<p className={styles.channel__subscribe}>구독자</p>
+			</div>
 		</div>
 	);
 }
