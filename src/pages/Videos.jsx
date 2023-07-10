@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import VideoCard from '../components/VideoCard';
+import VideoCard from '../components//VideoCard/VideoCard';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
 
 function Videos() {
@@ -15,11 +15,13 @@ function Videos() {
 
 	return (
 		<>
-			<div>Videos {keyword ? `🔍${keyword}` : '🩵'}</div>
+			{/* <div>
+				Videos {keyword ? `🔍${keyword}` : '🩵'}
+			</div> */}
 			{isLoading && <p>Loading....</p>}
 			{error && <p>Something is wrong</p>}
 			{videos && (
-				<ul>
+				<ul style={{ display: 'flex', flexWrap: 'wrap' }}>
 					{videos.map((video) => (
 						<VideoCard
 							key={video.id}

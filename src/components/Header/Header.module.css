@@ -15,7 +15,7 @@
 .logo__icon {
 	width: 40px;
 	font-size: 40px;
-	color: lightsalmon;
+	color: #ffc56d;
 }
 
 .logo__title {
@@ -43,7 +43,7 @@
 }
 
 .search__button {
-	background-color: lightsalmon;
+	background-color: #ffc56d;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	padding: 9px 20px;
