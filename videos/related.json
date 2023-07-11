@@ -1,0 +1,231 @@
+{
+	"kind": "youtube#searchListResponse",
+	"etag": "9-0i4wUtAw5omyvSGlROT4zjS3Y",
+	"nextPageToken": "CAUQAA",
+	"pageInfo": {
+		"totalResults": 158,
+		"resultsPerPage": 5
+	},
+	"items": [
+		{
+			"kind": "youtube#searchResult",
+			"etag": "OzxJvMmOetVhnCRsLSu4Fgtuits",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "fxbCHn6gE3U"
+			},
+			"snippet": {
+				"publishedAt": "2016-04-01T16:27:04Z",
+				"channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+				"title": "The surprising habits of original thinkers | Adam Grant",
+				"description": "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nHow do creative people come up with great ideas? Organizational psychologist Adam Grant studies \"originals\": thinkers who dream up new ideas and take action to put them into the world. In this talk, learn three unexpected habits of originals — including embracing failure. \"The greatest originals are the ones who fail the most, because they're the ones who try the most,\" Grant says. \"You need a lot of bad ideas in order to get a few good ones.\"\n\nAdam hosts the TED Audio Collective podcast WorkLife with Adam Grant--a show that takes you inside the minds of some of the world's most unusual professionals to discover the keys to a better work life. Listen to WorkLife with Adam Grant wherever you get your podcasts. Subscribe to the TED Audio Collective: https://www.youtube.com/TEDAudioCollective \n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/fxbCHn6gE3U/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/fxbCHn6gE3U/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/fxbCHn6gE3U/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/fxbCHn6gE3U/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/fxbCHn6gE3U/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "TED",
+				"liveBroadcastContent": "none",
+				"publishTime": "2016-04-01T16:27:04Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "RNksMhEevlloKKWL5C8wCEyl_LY",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "dtfaccGmCCs"
+			},
+			"snippet": {
+				"publishedAt": "2022-10-06T16:25:30Z",
+				"channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+				"title": "You Don’t Actually Know What Your Future Self Wants | Shankar Vedantam | TED",
+				"description": "\"You are constantly becoming a new person,\" says journalist Shankar Vendantam. In a talk full of beautiful storytelling, he explains the profound impact of something he calls the \"illusion of continuity\" -- the belief that our future selves will share the same views, perspectives and hopes as our current selves -- and shows how we can more proactively craft the people we are to become.\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: http://ted.com/membership\n\nFollow TED! \nTwitter: http://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: http://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: https://go.ted.com/shankarvedantam\n\nhttps://youtu.be/dtfaccGmCCs\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy: https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy. For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #future",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/dtfaccGmCCs/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/dtfaccGmCCs/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/dtfaccGmCCs/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/dtfaccGmCCs/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/dtfaccGmCCs/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "TED",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-10-06T16:25:30Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "zC4Tg4u1k6VgQ2Fg0EZM796s3_U",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "iMBJrvEwv8s"
+			},
+			"snippet": {
+				"publishedAt": "2022-07-21T15:37:36Z",
+				"channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+				"title": "Why Having Fun Is the Secret to a Healthier Life | Catherine Price | TED",
+				"description": "Have you had your daily dose of fun? It's not just enjoyable, it's also essential for your health and happiness, says science journalist Catherine Price. She proposes a new definition of fun -- what she calls \"true fun\" -- and shares easy, evidence-backed ways to weave playfulness, flow and connection into your everyday life.\n\nIf you love watching TED Talks like this one, become a TED Member to support our mission of spreading ideas: http://ted.com/membership\n\nFollow TED! \nTwitter: http://twitter.com/TEDTalks\nInstagram: https://www.instagram.com/ted\nFacebook: http://facebook.com/TED\nLinkedIn: https://www.linkedin.com/company/ted-conferences\nTikTok: https://www.tiktok.com/@tedtoks\n\nThe TED Talks channel features talks, performances and original series from the world's leading thinkers and doers. Subscribe to our channel for videos on Technology, Entertainment and Design — plus science, business, global issues, the arts and more. Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWatch more: go.ted.com/catherineprice\n\nhttps://youtu.be/iMBJrvEwv8s\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com\n\n#TED #TEDTalks #fun",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/iMBJrvEwv8s/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/iMBJrvEwv8s/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/iMBJrvEwv8s/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/iMBJrvEwv8s/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/iMBJrvEwv8s/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "TED",
+				"liveBroadcastContent": "none",
+				"publishTime": "2022-07-21T15:37:36Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "sGjlqCx_WBLQr90UIjRO31LWfIc",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "arj7oStGLkU"
+			},
+			"snippet": {
+				"publishedAt": "2016-03-15T20:13:33Z",
+				"channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+				"title": "Tim Urban: Inside the mind of a master procrastinator | TED",
+				"description": "Tim Urban knows that procrastination doesn't make sense, but he's never been able to shake his habit of waiting until the last minute to get things done. In this hilarious and insightful talk, Urban takes us on a journey through YouTube binges, Wikipedia rabbit holes and bouts of staring out the window -- and encourages us to think harder about what we're really procrastinating on, before we run out of time.\n\nFor more from Tim Urban, visit Wait But Why: http://www.waitbutwhy.com/\n\nVisit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/arj7oStGLkU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/arj7oStGLkU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/arj7oStGLkU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/arj7oStGLkU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/arj7oStGLkU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "TED",
+				"liveBroadcastContent": "none",
+				"publishTime": "2016-03-15T20:13:33Z"
+			}
+		},
+		{
+			"kind": "youtube#searchResult",
+			"etag": "J5gdM-k7TAjMiZaA0w4Z24dzcjw",
+			"id": {
+				"kind": "youtube#video",
+				"videoId": "qYvXk_bqlBk"
+			},
+			"snippet": {
+				"publishedAt": "2016-06-23T15:22:59Z",
+				"channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+				"title": "Who are you, really? The puzzle of personality | Brian Little",
+				"description": "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.\n\nWhat makes you, you? Psychologists like to talk about our traits, or defined characteristics that make us who we are. But Brian Little is more interested in moments when we transcend those traits — sometimes because our culture demands it of us, and sometimes because we demand it of ourselves. Join Little as he dissects the surprising differences between introverts and extroverts and explains why your personality may be more malleable than you think.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more. You're welcome to link to or embed these videos, forward them to others and share these ideas with people you know. \n\nFollow TED on Twitter: http://twitter.com/TEDTalks\nLike TED on Facebook: http://facebook.com/TED\nSubscribe to our channel: http://youtube.com/TED\n\nTED's videos may be used for non-commercial purposes under a Creative Commons License, Attribution–Non Commercial–No Derivatives (or the CC BY – NC – ND 4.0 International) and in accordance with our TED Talks Usage Policy (https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy). For more information on using TED for commercial purposes (e.g. employee learning, in a film or online course), please submit a Media Request at https://media-requests.ted.com",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/qYvXk_bqlBk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/qYvXk_bqlBk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/qYvXk_bqlBk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/qYvXk_bqlBk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/qYvXk_bqlBk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "TED",
+				"liveBroadcastContent": "none",
+				"publishTime": "2016-06-23T15:22:59Z"
+			}
+		}
+	]
+}
