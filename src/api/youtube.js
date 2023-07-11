@@ -1,5 +1,3 @@
-import { keyboard } from '@testing-library/user-event/dist/keyboard';
-
 export default class Youtube {
 	// 외부(apiClient)로 부터 data 받음
 	constructor(apiClient) {
