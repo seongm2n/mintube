@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/mintube/static/css/main.521933b4.css",
-    "main.js": "/mintube/static/js/main.9a72833b.js",
+    "main.js": "/mintube/static/js/main.d49d5949.js",
     "static/js/27.fff58e28.chunk.js": "/mintube/static/js/27.fff58e28.chunk.js",
     "index.html": "/mintube/index.html"
   },
   "entrypoints": [
     "static/css/main.521933b4.css",
-    "static/js/main.9a72833b.js"
+    "static/js/main.d49d5949.js"
   ]
 }
