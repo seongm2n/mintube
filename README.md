@@ -45,22 +45,22 @@
   ```jsx
   ...
   <li
-  			className={isList ? 'flex gap-1 m-2 cursor-pointer' : 'cursor-pointer'}
-  			onClick={() => {
-  				navigate(`/videos/watch/${video.id}`, { state: { video } });
-  			}}
-  		>
-  			<img
-  				className={isList ? 'w-60 mr-2 rounded-3xl' : 'rounded-3xl w-full'}
-  				src={thumbnails.medium.url}
-  				alt={title}
-  			/>
-  			<div>
-  				<p className='font-semibold my-2 line-clamp-2'>{title}</p>
-  				<p className='text-sm opacity-80'>{channelTitle}</p>
-  				<p className='text-sm opacity-80'>{formatAgo(publishedAt, 'ko')}</p>
-  			</div>
-  		</li>
+    className={isList ? 'flex gap-1 m-2 cursor-pointer' : 'cursor-pointer'}
+    onClick={() => {
+      navigate(`/videos/watch/${video.id}`, { state: { video } });
+    }}
+  >
+    <img
+      className={isList ? 'w-60 mr-2 rounded-3xl' : 'rounded-3xl w-full'}
+      src={thumbnails.medium.url}
+      alt={title}
+    />
+    <div>
+      <p className='font-semibold my-2 line-clamp-2'>{title}</p>
+      <p className='text-sm opacity-80'>{channelTitle}</p>
+      <p className='text-sm opacity-80'>{formatAgo(publishedAt, 'ko')}</p>
+    </div>
+  </li>
 
   ```
 - 하루에 사용할 수 있는 실시간 데이터를 다 써버린지 모르고 스타일링하다가 data를 조회할 수 없는 에러를 보고 mockdata를 만들어서 사용하게됨
